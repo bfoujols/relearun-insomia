@@ -1,0 +1,21 @@
+_id: req_59cee0e1e80d4a0889c38789c8713999
+type: Request
+parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
+modified: 1642695963281
+created: 1642695958845
+url: http://127.0.0.1:8000/api/envs/1
+name: get précis de env
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1642644788615.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

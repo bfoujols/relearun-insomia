@@ -1,0 +1,21 @@
+_id: req_c39c4e0f39e14efda541696c4fdd8fdc
+type: Request
+parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
+modified: 1642695732753
+created: 1642695724586
+url: http://127.0.0.1:8000/api/versions
+name: get générale de version
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1642695724586
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

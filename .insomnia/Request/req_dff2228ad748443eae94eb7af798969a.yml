@@ -1,0 +1,34 @@
+_id: req_dff2228ad748443eae94eb7af798969a
+type: Request
+parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
+modified: 1642715046360
+created: 1642712140544
+url: http://127.0.0.1:8000/api/codes/3
+name: put de code
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "design du code",
+      "inheritance": 3,
+      "type": "css, js",
+      "versions": [
+        "api/versions/3"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f7c727a7621446f6a17c6b7f948a5713
+authentication: {}
+metaSortKey: -1642712140544
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

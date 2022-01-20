@@ -1,0 +1,21 @@
+_id: req_2850c643ac9a49849368c2575f9d11a3
+type: Request
+parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
+modified: 1642696304813
+created: 1642696161658
+url: http://127.0.0.1:8000/api/states/1
+name: get précis de state
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1642695383170.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_0da24a83343143359cf913c04a556d3a
+type: Request
+parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
+modified: 1642715050593
+created: 1642698775172
+url: http://127.0.0.1:8000/api/states
+name: post de state
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "createdDate": "2022-01-20T17:14:16.259Z",
+      "name": "Relback",
+      "env": "api/envs/3",
+      "version": "api/versions/3"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_53117b327eba4431a18a748b59e8b89b
+authentication: {}
+metaSortKey: -1642698775172
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

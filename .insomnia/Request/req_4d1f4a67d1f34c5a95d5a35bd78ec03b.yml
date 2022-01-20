@@ -1,0 +1,21 @@
+_id: req_4d1f4a67d1f34c5a95d5a35bd78ec03b
+type: Request
+parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
+modified: 1642695940726
+created: 1642695812820
+url: http://127.0.0.1:8000/api/codes/1
+name: get précis de codes
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1642695142339.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

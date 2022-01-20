@@ -1,0 +1,31 @@
+_id: req_85d1f925b36f48a7bab4440b2f4929e4
+type: Request
+parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
+modified: 1642715470005
+created: 1642698080596
+url: http://127.0.0.1:8000/api/versions
+name: post de version
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "V5.4.4",
+      "createDate": "2022-01-20T17:01:40",
+      "code": "api/codes/3"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d49adae61ee1451b942d7fefc731ecd6
+authentication: {}
+metaSortKey: -1642698080596
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

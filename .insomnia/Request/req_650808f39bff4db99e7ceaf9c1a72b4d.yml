@@ -1,0 +1,31 @@
+_id: req_650808f39bff4db99e7ceaf9c1a72b4d
+type: Request
+parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
+modified: 1642715061751
+created: 1642696326270
+url: http://127.0.0.1:8000/api/codes
+name: post de codes
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "designe du code",
+      "inheritance": 3,
+      "type": "css"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/ld+json
+    id: pair_0d35bee4aa134f28a75a1651657d26ae
+authentication: {}
+metaSortKey: -1642696326270
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
