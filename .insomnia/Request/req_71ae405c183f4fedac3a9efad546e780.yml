@@ -1,0 +1,36 @@
+_id: req_71ae405c183f4fedac3a9efad546e780
+type: Request
+parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
+modified: 1642762367953
+created: 1642759145519
+url: http://127.0.0.1:8000/api/versions/2
+name: patch de version
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "V5.4.4",
+      "createDate": "2022-01-21T10:01:56.015Z",
+      "code": "api/codes/1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4b933eb4eecc4e85abf0010a55edafe5
+    disabled: true
+  - id: pair_e294d943e485497484c713f3e9e8615d
+    name: Content-Type
+    value: application/merge-patch+json
+    description: ""
+authentication: {}
+metaSortKey: -1642759145519
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

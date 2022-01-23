@@ -1,7 +1,7 @@
 _id: req_fa2dc27520af445ca7060281dbf8ff3c
 type: Request
 parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
-modified: 1642715058517
+modified: 1642762841797
 created: 1642696783748
 url: http://127.0.0.1:8000/api/envs
 name: post de env
@@ -17,7 +17,7 @@ body:
 parameters: []
 headers:
   - name: Content-Type
-    value: application/json
+    value: application/ld+json
     id: pair_df00e5d96132414a84f9ca14c9014a83
 authentication: {}
 metaSortKey: -1642696783748

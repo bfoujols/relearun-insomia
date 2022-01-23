@@ -1,0 +1,35 @@
+_id: req_d00db491b97a4086bb534f9a7448b064
+type: Request
+parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
+modified: 1642759456864
+created: 1642757940922
+url: http://127.0.0.1:8000/api/envs/3
+name: patch de env
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "env2",
+      "code": "api/codes/1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/ld+json
+    id: pair_29c7ae50601846f2b21a5e7ffc64c010
+    disabled: true
+  - id: pair_86a6c3ac65ef40c98c12e49e1ac6089d
+    name: Content-Type
+    value: application/merge-patch+json
+    description: ""
+authentication: {}
+metaSortKey: -1642757940922
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

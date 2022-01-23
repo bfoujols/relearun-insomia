@@ -1,30 +1,27 @@
-_id: req_dff2228ad748443eae94eb7af798969a
+_id: req_60cd9f7f21e541b89a819d2dcea64551
 type: Request
 parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
-modified: 1642758552438
-created: 1642712140544
-url: http://127.0.0.1:8000/api/codes/3
-name: put de code
+modified: 1642758585924
+created: 1642756523859
+url: http://127.0.0.1:8000/api/versions/3
+name: put de version
 description: ""
 method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-      "name": "design du code",
-      "inheritance": 3,
-      "type": "css, js",
-      "versions": [
-        "api/versions/2"
-      ]
+      "name": "V5.4.6",
+      "createDate": "2022-01-21T09:15:54",
+      "code": "api/codes/2"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_f7c727a7621446f6a17c6b7f948a5713
+    id: pair_58d3f89d33ad4def8107bc756e15ec26
 authentication: {}
-metaSortKey: -1642712140544
+metaSortKey: -1642756523859
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

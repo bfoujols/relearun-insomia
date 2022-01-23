@@ -1,21 +1,17 @@
-_id: req_c39c4e0f39e14efda541696c4fdd8fdc
+_id: req_12c09fb078f14d90964266a1d9bbf975
 type: Request
 parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
-modified: 1642758273992
-created: 1642695724586
-url: http://127.0.0.1:8000/api/versions
-name: get générale de version
+modified: 1642762859233
+created: 1642762828524
+url: http://127.0.0.1:8000/api/envs/5
+name: delete de env
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
-headers:
-  - id: pair_626516e2aa64456f85fbbe261189de70
-    name: ""
-    value: ""
-    description: ""
+headers: []
 authentication: {}
-metaSortKey: -1642695724586
+metaSortKey: -1642762828524
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

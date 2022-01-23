@@ -1,30 +1,28 @@
-_id: req_dff2228ad748443eae94eb7af798969a
+_id: req_6684185e515b47239b2c69abc28e536c
 type: Request
 parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
-modified: 1642758552438
-created: 1642712140544
-url: http://127.0.0.1:8000/api/codes/3
-name: put de code
+modified: 1642758595150
+created: 1642756872086
+url: http://127.0.0.1:8000/api/states/2
+name: put de state
 description: ""
 method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-      "name": "design du code",
-      "inheritance": 3,
-      "type": "css, js",
-      "versions": [
-        "api/versions/2"
-      ]
+      "createdDate": "2022-01-21T09:21:36",
+      "name": "Modiff",
+      "env": "api/envs/1",
+      "version": "api/versions/2"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_f7c727a7621446f6a17c6b7f948a5713
+    id: pair_b714ba16589d4d4a95600de1fed640ae
 authentication: {}
-metaSortKey: -1642712140544
+metaSortKey: -1642756872086
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

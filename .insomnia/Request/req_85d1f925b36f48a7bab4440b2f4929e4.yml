@@ -1,7 +1,7 @@
 _id: req_85d1f925b36f48a7bab4440b2f4929e4
 type: Request
 parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
-modified: 1642715470005
+modified: 1642762957965
 created: 1642698080596
 url: http://127.0.0.1:8000/api/versions
 name: post de version
@@ -18,7 +18,7 @@ body:
 parameters: []
 headers:
   - name: Content-Type
-    value: application/json
+    value: application/ld+json
     id: pair_d49adae61ee1451b942d7fefc731ecd6
 authentication: {}
 metaSortKey: -1642698080596

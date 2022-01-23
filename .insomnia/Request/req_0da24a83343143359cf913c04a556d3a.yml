@@ -1,7 +1,7 @@
 _id: req_0da24a83343143359cf913c04a556d3a
 type: Request
 parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
-modified: 1642715050593
+modified: 1642758307463
 created: 1642698775172
 url: http://127.0.0.1:8000/api/states
 name: post de state
@@ -19,7 +19,7 @@ body:
 parameters: []
 headers:
   - name: Content-Type
-    value: application/json
+    value: application/ld+json
     id: pair_53117b327eba4431a18a748b59e8b89b
 authentication: {}
 metaSortKey: -1642698775172

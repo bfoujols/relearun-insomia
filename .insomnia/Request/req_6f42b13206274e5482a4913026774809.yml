@@ -1,19 +1,19 @@
-_id: req_dff2228ad748443eae94eb7af798969a
+_id: req_6f42b13206274e5482a4913026774809
 type: Request
 parentId: wrk_fa32e073b2a943e180cee78739e2fa1e
-modified: 1642758552438
-created: 1642712140544
+modified: 1642758598871
+created: 1642757188169
 url: http://127.0.0.1:8000/api/codes/3
-name: put de code
+name: patch de code
 description: ""
-method: PUT
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-      "name": "design du code",
+      "name": "Design Code",
       "inheritance": 3,
-      "type": "css, js",
+      "type": "CSS, JS",
       "versions": [
         "api/versions/2"
       ]
@@ -21,10 +21,15 @@ body:
 parameters: []
 headers:
   - name: Content-Type
-    value: application/json
-    id: pair_f7c727a7621446f6a17c6b7f948a5713
+    value: application/ld+json
+    id: pair_7a66a910dd2247cf83938250917f500b
+    disabled: true
+  - id: pair_8006191f39ac45aca46bec295b636821
+    name: Content-Type
+    value: application/merge-patch+json
+    description: ""
 authentication: {}
-metaSortKey: -1642712140544
+metaSortKey: -1642757188169
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
